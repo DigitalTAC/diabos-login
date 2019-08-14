@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="87" height="86" viewBox="0 0 87 86">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#1A8BB0" stroke-linecap="square" stroke-width="2" d="M72.105 76.681a1.774 1.774 0 0 0-.835 2.059l1.413 4.74-6.83-3.698a1.757 1.757 0 0 0-1.253-.16c-2.545.63-5.17.95-7.795.95-15.865 0-28.772-11.383-28.772-25.377 0-13.993 12.907-25.377 28.772-25.377 15.865 0 28.771 11.384 28.771 25.377 0 8.768-5.036 16.799-13.471 21.486z"/>
+        <path stroke="#1A8BB0" stroke-linecap="square" stroke-width="2" d="M22.034 50.924a1.762 1.762 0 0 0-1.256.161l-6.83 3.698 1.414-4.743a1.773 1.773 0 0 0-.835-2.056C6.09 43.3 1.055 35.267 1.055 26.5c0-13.993 12.907-25.377 28.772-25.377 15.865 0 28.771 11.384 28.771 25.377 0 .978-.093 1.972-.227 2.97-14.925.334-27.362 9.773-30.63 22.336a32.168 32.168 0 0 1-5.707-.88z"/>
+        <path d="M0 85.628h86.631V.061H0z"/>
+        <text fill="#1A8BB0" font-family="Helvetica-Light, Helvetica" font-size="28" font-weight="300">
+            <tspan x="19.236" y="37.704">$</tspan>
+        </text>
+        <text fill="#1A8BB0" font-family="Helvetica-Light, Helvetica" font-size="28" font-weight="300">
+            <tspan x="47.183" y="65.235">$</tspan>
+        </text>
+    </g>
+</svg>

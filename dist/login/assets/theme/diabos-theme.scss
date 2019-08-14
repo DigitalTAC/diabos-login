@@ -1,0 +1,102 @@
+@import '../node_modules/@angular/material/theming';
+@import './additional-diabos-colors.scss';
+@import './diabos-colors.scss';
+@import '../font/fonts.scss';
+
+@include mat-core();
+
+$diabos-theme-primary: mat-palette($nice-blue);
+$diabos-theme-accent: mat-palette($pumpkin-orange, 500, A100, A400);
+$diabos-theme-warn: mat-palette($mat-red);
+
+$diabos-theme: mat-light-theme($diabos-theme-primary, $diabos-theme-accent, $diabos-theme-warn);
+
+$custom-background-color: $background-color;
+$background: map-get($diabos-theme, background);
+$background: map_merge($background, (background: $custom-background-color));
+$diabos-theme: map_merge($diabos-theme, (background: $background));
+
+.diabos-theme {
+  @include angular-material-theme($diabos-theme);
+
+  .error-text {
+    font-size: 12px;
+    color: $error-color;
+    font-family: HelveticaNeue;
+  }
+
+  .table-body {
+    font-size: 14px;
+    font-family: HelveticaNeueLight;
+  }
+
+  .mat-display-1 {
+    font-size: 96px;
+    font-family: HelveticaNeueLight;
+  }
+
+  .mat-display-2 {
+    font-size: 60px;
+    font-family: HelveticaNeueLight;
+  }
+
+  .mat-display-3 {
+    font-size: 48px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-display-4 {
+    font-size: 34px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-headline {
+    font-size: 28px;
+    font-family: HelveticaNeueMedium;
+  }
+
+  .demo-page-banner-body {
+    font-size: 20px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-title {
+    font-size: 20px;
+    font-family: HelveticaNeueMedium;
+  }
+
+  .mat-subheading-1 {
+    font-size: 16px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-subheading-2 {
+    font-size: 14px;
+    font-family: HelveticaNeueMedium;
+  }
+
+  .mat-body-1 {
+    font-size: 16px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-body-2 {
+    font-size: 14px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-button {
+    font-size: 14px;
+    font-family: HelveticaNeueMedium;
+  }
+
+  .mat-caption {
+    font-size: 12px;
+    font-family: HelveticaNeue;
+  }
+
+  .mat-input {
+    font-size: 16px;
+    font-family: HelveticaNeueMedium;
+  }
+}
